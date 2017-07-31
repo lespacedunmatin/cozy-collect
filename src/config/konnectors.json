@@ -40,7 +40,7 @@
     "category":"isp",
     "color":{"hex":"#53BB0F","css":"#53BB0F"},
     "dataType":["bill"],
-    "fields":{"login":{"type":"text"},"password":{"type":"password"},"folderPath":{"type":"folder","advanced":true}},
+    "fields":{"login":{"type":"text"},"password":{"type":"password"}},
     "source": "git://github.com/cozy/cozy-konnector-numericable.git#build"
   },
   {
@@ -73,7 +73,7 @@
     "vendorLink":"maif.fr",
     "category":"insurance",
     "color":{"hex":"#007858","css":"#007858"},
-    "fields":{"access_token":{"type":"hidden"},"folderPath":{"type":"folder","advanced":true}},
+    "fields":{"access_token":{"type":"hidden"}},
     "dataType":["profile", "contract", "home", "family", "sinister"],
     "source": "git://github.com/cozy/cozy-konnector-maif.git#build"
   },

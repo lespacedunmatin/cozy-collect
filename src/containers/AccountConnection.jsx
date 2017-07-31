@@ -110,7 +110,7 @@ class AccountConnection extends Component {
             const currentIdx = accounts.findIndex(a => a._id === accountID)
             const account = accounts[currentIdx]
             this.setState({account: account})
-            account.folderPath = account.folderPath || t('account.config.default_folder', konnector)
+            account.folderPath = account.folderPath || null
             return this.runConnection(accounts[currentIdx], folderPath)
               .then(connection => {
                 this.setState({
